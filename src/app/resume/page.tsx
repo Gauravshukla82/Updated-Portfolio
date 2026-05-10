@@ -15,6 +15,7 @@ const resumeData = {
     phone: "+91-7376603602",
     linkedin: "linkedin.com/in/gauravshukla82",
     github: "github.com/Gauravshukla82",
+    portfolio: "gauravshukla82.github.io/Updated-Portfolio/",
   },
   summary: "Senior Solutions Architect specializing in scaling complex fintech, workforce management, and AI-driven ecosystems. Expert in Flutter mobile apps with Node.js/FastAPI backends. Double GATE-qualified (M.Tech) with deep expertise in automating financial operations, risk assessments, and high-fidelity reporting systems.",
   skills: [
@@ -193,6 +194,9 @@ export default function Resume() {
             <a href={`https://${resumeData.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-2 hover:text-blue-600 transition-colors">
               LinkedIn <FaLinkedin size={12} className="text-blue-600" />
             </a>
+            <a href={`https://${resumeData.contact.portfolio}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-2 hover:text-blue-600 transition-colors">
+              Portfolio <Globe size={12} className="text-blue-600" />
+            </a>
             <a href={`https://${resumeData.contact.github}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-2 hover:text-blue-600 transition-colors">
               GitHub <FaGithub size={12} className="text-blue-600" />
             </a>
@@ -289,7 +293,7 @@ export default function Resume() {
 
         {/* Footer Area */}
         <div className="mt-auto pt-8 flex justify-between items-center text-[9px] text-gray-400 font-bold uppercase tracking-widest border-t border-gray-100">
-          <span>Portfolio: portfolio.gauravshukla.com</span>
+          <span>Portfolio: {resumeData.contact.portfolio}</span>
           <span>Verified Senior Architect Profile</span>
         </div>
 
