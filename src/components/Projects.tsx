@@ -170,7 +170,7 @@ export default function Projects() {
                   {project.image && (
                     <div className="relative aspect-video rounded-xl overflow-hidden border border-white/10 group-hover:border-blue-500/30 transition-colors shadow-2xl">
                       <img
-                        src={`${process.env.BASE_PATH}${project.image}`}
+                        src={`${process.env.NEXT_PUBLIC_BASE_PATH}${project.image}`}
                         alt={project.title}
                         className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-700"
                       />
