@@ -15,7 +15,7 @@ const resumeData = {
     phone: "+91-7376603602",
     linkedin: "linkedin.com/in/gauravshukla82",
     github: "github.com/Gauravshukla82",
-    portfolio: "gauravshukla82.github.io/Updated-Portfolio/",
+    portfolio: "gauravshukla82.github.io/Portfolio/",
   },
   summary: "Senior Solutions Architect specializing in scaling complex fintech, workforce management, and AI-driven ecosystems. Expert in Flutter mobile apps with Node.js/FastAPI backends. Double GATE-qualified (M.Tech) with deep expertise in automating financial operations, risk assessments, and high-fidelity reporting systems.",
   skills: [

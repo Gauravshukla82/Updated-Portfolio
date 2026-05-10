@@ -12,7 +12,7 @@ if [ ! -d ".git" ]; then
 fi
 
 # 2. Add or Update Remote
-REMOTE_URL="https://github.com/Gauravshukla82/Updated-Portfolio.git"
+REMOTE_URL="https://github.com/Gauravshukla82/Portfolio.git"
 if git remote | grep -q "origin"; then
     echo "🔗 Updating existing remote to: $REMOTE_URL"
     git remote set-url origin "$REMOTE_URL"
@@ -33,8 +33,8 @@ git push -u origin main --force
 echo "✅ Code pushed successfully!"
 echo "------------------------------------------------"
 echo "FINAL STEPS ON GITHUB:"
-echo "1. Go to: https://github.com/Gauravshukla82/Updated-Portfolio/settings/pages"
+echo "1. Go to: https://github.com/Gauravshukla82/Portfolio/settings/pages"
 echo "2. Set 'Build and deployment > Source' to 'GitHub Actions'"
 echo "3. Wait 2-3 minutes for the build to finish."
-echo "4. Your site will be live at: https://gauravshukla82.github.io/Updated-Portfolio/"
+echo "4. Your site will be live at: https://gauravshukla82.github.io/Portfolio/"
 echo "------------------------------------------------"
