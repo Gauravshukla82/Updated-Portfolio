@@ -1,14 +1,14 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === 'production';
+const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig: NextConfig = {
-  output: 'export',
+  output: "export",
   images: {
     unoptimized: true,
   },
   // Set the base path to match your repository name for GitHub Pages
-  basePath: isProd ? '/portfolio' : '',
+  basePath: isProd ? "/portfolio" : "",
   trailingSlash: true,
 };
 
